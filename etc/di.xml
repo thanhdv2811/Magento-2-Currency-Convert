@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 ShopGo. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Directory\Model\Currency\Import\Config">
+        <arguments>
+            <argument name="servicesConfig" xsi:type="array">
+                <item name="freeCurrencyConverter" xsi:type="array">
+                    <item name="label" xsi:type="string">Free Currency Converter</item>
+                    <item name="class" xsi:type="string">Thanhdv2811\CurrencyConverter\Model\Currency\Import\Fcc</item>
+                </item>
+                <item name="currencyLayer" xsi:type="array">
+                    <item name="label" xsi:type="string">Currency Layer</item>
+                    <item name="class" xsi:type="string">Thanhdv2811\CurrencyConverter\Model\Currency\Import\CurrencyLayer</item>
+                </item>
+                <item name="frankfurter" xsi:type="array">
+                    <item name="label" xsi:type="string">Frankfurter</item>
+                    <item name="class" xsi:type="string">Thanhdv2811\CurrencyConverter\Model\Currency\Import\Frankfurter</item>
+                </item>
+            </argument>
+        </arguments>
+    </type>
+</config>
