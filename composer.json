@@ -2,7 +2,6 @@
     "name": "thanhdv2811/magento-2-currency-convert",
     "description": "The currency import service in Magento 2 doesn't work any more (Fixer.io, Webservicex and Yahoo Finance Exchange). This extension will add other services to import the currency rate",
     "type": "magento2-module",
-    "version": "1.0.0",
     "license": [
         "GPL-3.0"
     ],
